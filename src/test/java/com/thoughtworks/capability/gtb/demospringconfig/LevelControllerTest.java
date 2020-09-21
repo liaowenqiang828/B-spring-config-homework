@@ -17,7 +17,6 @@ import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@ContextConfiguration(initializers = ConfigFileApplicationContextInitializer.class)
 @ActiveProfiles("test")
 @AutoConfigureMockMvc
 public class LevelControllerTest {
